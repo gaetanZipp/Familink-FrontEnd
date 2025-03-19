@@ -1,4 +1,6 @@
 .header{
+    background: url('../../assets/FamilyImage.jpg') no-repeat;
+    background-size: cover;
     height: 100%;
     width: 100%;
     float: left;
@@ -10,4 +12,17 @@
     position: fixed;
     object-fit: cover;
     z-index: -1;
+}
+
+.header-content{
+    display: flex;
+    justify-content: flex-start; /* Aligner le contenu à gauche */
+    align-items: center; /* Centrer verticalement */
+    height: 100vh; /* Occuper toute la hauteur de l'écran */
+    padding-left: 50px; /* Ajouter un espace à gauche */
+    color: white;
+}
+
+.header .text {
+    align-items: left;
 }
