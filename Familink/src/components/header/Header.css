@@ -9,20 +9,34 @@
     right:0;
     bottom: 0;
     padding: none;
-    position: fixed;
     object-fit: cover;
     z-index: -1;
 }
 
-.header-content{
+.header-content {
     display: flex;
-    justify-content: flex-start; /* Aligner le contenu à gauche */
+    justify-content: space-between; /* Répartir l'espace entre les éléments */
     align-items: center; /* Centrer verticalement */
     height: 100vh; /* Occuper toute la hauteur de l'écran */
-    padding-left: 50px; /* Ajouter un espace à gauche */
+    padding: 0 100px; /* Ajouter un espace à gauche et à droite */
     color: white;
 }
 
-.header .text {
-    align-items: left;
+.header-content-left {
+    font-size: 30px;
+    font-weight: bold;
+    width: 45%; /* 45% de la largeur */
+    background: rgba(255, 255, 255, 0.1); /* Fond semi-transparent pour visualiser */
+    padding: 20px; /* Espacement interne */
+}
+
+.header-content-left p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.header-content-right {
+    width: 55%; /* 55% de la largeur */
+    background: rgba(255, 255, 255, 0.1); /* Fond semi-transparent pour visualiser */
+    padding: 20px; /* Espacement interne */
 }
