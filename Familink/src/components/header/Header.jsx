@@ -13,46 +13,27 @@ const Header = () => {
         <p>Créez votre arbre généalogique, trouvez de nouveaux liens de parenté et explorez des milliards de documents historiques</p>
       </div>
       <div className="header-content-right">
-        <form>
-          <h1>S'ENREGISTRER</h1>
-          <div className="input-box">
-            <input
-              type="text"
-              name="nom"
-              placeholder="Entrez votre nom"
-              required
-            />
-            <FaUser className="icon" />
-          </div>
-          <div className="input-box">
-            <input
-              type="email"
-              name="email"
-              placeholder="Entrez votre adresse email"
-              required
-            />
-            <FaEnvelopeOpen className="icon" />
-          </div>
-          <div className="input-box">
-            <input
-              type="password"
-              name="password"
-              placeholder="Entrez votre mot de passe"
-              required
-            />
-            <FaLock className="icon" />
-          </div>
-          <div className="input-box">
-            <input
-              type="password"
-              name="confirmPassword"
-              placeholder="Confirmez votre mot de passe"
-              required
-            />
-            <FaLock className="icon" />
-          </div>
-          
-        </form>
+      <form>
+  <h1>S'ENREGISTRER</h1>
+  <div className="input-box">
+    <input type="text" name="nom" placeholder="Entrez votre nom" required />
+    <FaUser className="icon" />
+  </div>
+  <div className="input-box">
+    <input type="email" name="email" placeholder="Entrez votre adresse email" required />
+    <FaEnvelopeOpen className="icon" />
+  </div>
+  <div className="input-box">
+    <input type="password" name="password" placeholder="Entrez votre mot de passe" required />
+    <FaLock className="icon" />
+  </div>
+  <div className="input-box">
+    <input type="password" name="confirmPassword" placeholder="Confirmez votre mot de passe" required />
+    <FaLock className="icon" />
+  </div>
+  <button type="submit">S'inscrire</button>
+</form>
+
       </div>
     </div>
   </div>

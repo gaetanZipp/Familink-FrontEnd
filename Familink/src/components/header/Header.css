@@ -40,3 +40,59 @@
     background: rgba(255, 255, 255, 0.1); /* Fond semi-transparent pour visualiser */
     padding: 20px; /* Espacement interne */
 }
+
+form {
+  width: 350px;  /* Largeur du formulaire */
+  margin: 50px auto;
+  padding: 20px;
+  background: #2c3e50;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.input-box input {
+  width: 100%; /* Prend toute la largeur du conteneur */
+  padding: 10px 40px;
+  background: #34495e;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  box-sizing: border-box; /* Empêche le débordement */
+}
+
+.input-box .icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 18px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff; /* Bleu vif */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3; /* Bleu foncé au survol */
+}
+
+
+  
