@@ -9,8 +9,8 @@ import paper3 from '../../assets/paper3.png';
 const Section5 = () => {
   return (
     <div className="section5">
-      <h1>Recherchez des milliards de données</h1>
-      <p>Plongez dans notre immense collection de registres du monde entier. Cherchez simplement un nom pour en savoir plus sur vos ancêtres. Avec un contenu exclusif et des résultats précis, nous vous aiderons à découvrir plus que vous ne l'imaginez.</p>
+      <h1>Search billions of data points</h1>
+      <p>Dive into our huge collection of records from around the world. Just look up a name to learn more about your ancestors. With exclusive content and accurate results, we'll help you discover more than you ever imagine.</p>
       
       <div className="images-container">
         <img src={paper} alt="paper" className="image" />

@@ -1,31 +1,51 @@
 .footer {
-    background-color: #333; /* Fond sombre pour le pied de page */
-    color: white; /* Texte en blanc */
-    padding: 30px;
-    text-align: center; /* Centrer le contenu */
+    display: flex;
+    justify-content: space-around;
+    background-color: #877b7b;
+    color: white;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 200px;
+}
+
+.footer h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer li {
+    margin-bottom: 8px;
     font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
 }
 
-.footer-content p {
-    margin: 10px 0; /* Espacement entre les paragraphes */
+.footer li:hover {
+    color: #ff9800; /* Couleur au survol */
 }
 
-.social-links {
-    margin: 10px 0;
+.premium-button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
 }
 
-.social-links a {
-    color: #FF6F00; /* Couleur des liens */
-    margin: 0 15px; /* Espacement entre les liens */
-    text-decoration: none; /* Enlever le soulignement */
-}
-
-.social-links a:hover {
-    text-decoration: underline; /* Ajouter un soulignement au survol */
-}
-
-/* Style pour le copyright et autres informations légales */
-.footer-content p:last-child {
-    font-size: 14px;
-    color: #bbb; /* Couleur légèrement plus claire */
+.premium-button:hover {
+    background-color: #e68900;
 }

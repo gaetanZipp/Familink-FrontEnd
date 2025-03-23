@@ -11,9 +11,10 @@ const Section3 = () => {
         <img src={portrait} alt="Portrait" className="image portrait" />
       </div>
       <div className="text-container">
-        <h1>Pensez à animer vos photos de famille</h1>
-        <p>Deep Nostalgia - l'outil internet qui fait sensation !</p>
-        <p>Plus de 116 millions d'animations, et ce n'est pas fini</p>
+        <h1>We've thought of everything</h1>
+        <p>We will also manage the sending of notifications.
+        ns mail in case of a birthday or a significant event of a person in the tree</p>
+        <p>As a result, one will be able to accurately view the various important details of a person and send notifications as needed</p>
       </div>
     </div>
   );

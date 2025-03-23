@@ -31,8 +31,3 @@
     object-fit: cover; /* Ajuster l'affichage de l'image */
 }
 
-/* Ajouter un espacement au bouton */
-.start-button {
-    width: auto; 
-    margin-top: 30px; /* Espacement entre l'image et le bouton */
-}
