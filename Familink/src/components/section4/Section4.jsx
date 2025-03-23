@@ -5,16 +5,13 @@ import genealogieImage from '../../assets/genealogie.jpg'; // Assurez-vous que l
 const Section4 = () => {
   return (
     <div className="section4">
-      <h1>Créez votre arbre généalogique en ligne</h1>
+      <h1>Save your data</h1>
       <p>
-        Partir sur les traces de votre passé commence par votre arbre généalogique.
-        Sur Familink, il n'y a rien de plus facile : ajoutez des noms, des dates, 
-        des photos et des histoires et partagez-le avec votre famille.
+      Among our illustrious options, you will also have the possibility to load your data from an external file but you will also be able to save your information by exporting it in the appropriate format 
       </p>
       <div className="image-container">
         <img src={genealogieImage} alt="Arbre généalogique" />
       </div>
-      <button className="start-button">Commencez votre essai</button>
     </div>
   );
 };
