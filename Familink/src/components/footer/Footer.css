@@ -1,0 +1,31 @@
+.footer {
+    background-color: #333; /* Fond sombre pour le pied de page */
+    color: white; /* Texte en blanc */
+    padding: 30px;
+    text-align: center; /* Centrer le contenu */
+    font-size: 16px;
+}
+
+.footer-content p {
+    margin: 10px 0; /* Espacement entre les paragraphes */
+}
+
+.social-links {
+    margin: 10px 0;
+}
+
+.social-links a {
+    color: #FF6F00; /* Couleur des liens */
+    margin: 0 15px; /* Espacement entre les liens */
+    text-decoration: none; /* Enlever le soulignement */
+}
+
+.social-links a:hover {
+    text-decoration: underline; /* Ajouter un soulignement au survol */
+}
+
+/* Style pour le copyright et autres informations légales */
+.footer-content p:last-child {
+    font-size: 14px;
+    color: #bbb; /* Couleur légèrement plus claire */
+}
