@@ -1,0 +1,38 @@
+.section4 {
+    text-align: center; /* Centrer le texte */
+    padding: 50px;
+    background-color: #b2e9e3; /* Couleur de fond */
+}
+
+.section4 h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section4 p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px; /* Largeur max pour une meilleure lisibilité */
+    margin: 0 auto; /* Centrer horizontalement */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centrer l'image */
+    margin-top: 30px; /* Espacement avec le texte */
+}
+
+.image-container img {
+    max-width: 50%; /* Réduire la largeur */
+    height: auto; /* Garder les proportions */
+    max-height: 400px; /* Limiter la hauteur */
+    border-radius: 10px; /* Arrondir les coins */
+    object-fit: cover; /* Ajuster l'affichage de l'image */
+}
+
+/* Ajouter un espacement au bouton */
+.start-button {
+    width: auto; 
+    margin-top: 30px; /* Espacement entre l'image et le bouton */
+}
