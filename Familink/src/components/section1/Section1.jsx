@@ -1,5 +1,6 @@
 import React from 'react'
 import './Section1.css'
+import { Link } from 'react-router-dom'
 
 const Section1 = () => {
   return (
@@ -10,7 +11,7 @@ const Section1 = () => {
       <div className="section1-right">
         <h1>Build Your Family Tree Online</h1>
         <p>Family is important. Keep your family close with a family tree that will help you keep track of your relatives and ancestors.</p>
-        <button>Get Started</button>
+        <button><Link to="/BuildingPage">Get Started</Link></button>
       </div>
     </div>
   )
