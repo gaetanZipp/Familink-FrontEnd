@@ -1,0 +1,50 @@
+.section5 {
+    text-align: center;
+    padding: 50px 100px;
+    background-color: #f9f9f9; /* Fond léger */
+}
+
+.section5 h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section5 p {
+    font-size: 18px;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacement entre les images */
+}
+
+.image-container img {
+    width: 200px; /* Taille des images */
+    height: auto;
+    border-radius: 10px; /* Coins arrondis */
+    object-fit: cover; /* Ajustement sans déformation */
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover {
+    transform: scale(1.1); /* Effet au survol */
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espace entre les images */
+    margin-top: 20px;
+}
+
+.images-container img {
+    width: 120px; /* Ajuste la largeur */
+    height: auto; /* Garde le ratio */
+    object-fit: cover; /* Assure un bon rendu */
+}
