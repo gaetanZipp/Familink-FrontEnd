@@ -90,8 +90,33 @@ button {
   transition: 0.3s ease;
 }
 
+.signup-btn {
+  background: #af6811;
+  position: relative; /* Pour le lien absolu */
+}
+
+.signup-btn a {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
+
+.signup-btn:hover {
+  background: #915829;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 button:hover {
   background: #915829;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Media query pour les écrans de taille moyenne */

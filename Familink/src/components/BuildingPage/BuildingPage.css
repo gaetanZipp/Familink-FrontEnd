@@ -1,0 +1,98 @@
+.Building {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .Building h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #2c3e50;
+  }
+  
+  .Building-slide {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .Building-slide h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #34495e;
+  }
+  
+  .Building-slide input {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .Building-slide input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .navigation-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .navigation-buttons button:first-child {
+    background-color: #95a5a6;
+    color: white;
+  }
+  
+  .navigation-buttons button:first-child:hover {
+    background-color: #7f8c8d;
+  }
+  
+  .navigation-buttons button:last-child {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .navigation-buttons button:last-child:hover {
+    background-color: #2980b9;
+  }
+  
+  .submit-btn {
+    background-color: #2ecc71 !important;
+  }
+  
+  .submit-btn:hover {
+    background-color: #27ae60 !important;
+  }
+  
+  /* Animation pour le changement de slide */
+  .Building-slide {
+    animation: fadeIn 0.5s ease;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

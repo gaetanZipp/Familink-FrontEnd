@@ -12,6 +12,16 @@ const Header = () => {
       password: "",
       confirmPassword: "",
     });
+
+    const isFormValid = () => {
+      return (
+        formData.nom.trim() !== "" &&
+        formData.email.trim() !== "" &&
+        formData.password.trim() !== "" &&
+        formData.confirmPassword.trim() !== "" &&
+        formData.password === formData.confirmPassword
+      );
+    };
   
     useEffect(() => {
       // Ajouter une classe au body lorsque la page est montée
@@ -41,7 +51,7 @@ const Header = () => {
       }
   
       try {
-        const response = await fetch("http://localhost:5261/api/register", {
+        const response = await fetch("http://localhost:5109/api/register", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -125,9 +135,9 @@ const Header = () => {
               />
               <FaLock className="icon" />
             </div>
-          <button type="submit">Sign Up</button>
-          <br/><br/>
-          <button type="submit">Register With Google</button>
+            <button type="submit" className={`signup-btn ${!isFormValid() ? 'disabled' : ''}`} disabled={!isFormValid()}><Link to={isFormValid() ? "/BuildingPage" : "#"} style={{ pointerEvents: !isFormValid() ? 'none' : 'auto' }}>Sign Up</Link></button>
+            <br/><br/>
+            <button type="button">Register With Google</button>
         </form>
       </div>
     </div>
