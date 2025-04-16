@@ -5,8 +5,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 .logo {
@@ -35,12 +39,12 @@
 
 .nav-links li a:hover {
     background-color: #f0f0f0;
-    color: #3498db;
+    color: #af6811;
 }
 
 .nav-links li.active a {
-    color: #3498db;
-    background-color: #e8f4fc;
+    color: #ba905c;
+    background-color: #e5a250;
 }
 
 /* Bouton hamburger - caché par défaut */
@@ -69,6 +73,7 @@
         top: 70px;
         left: 0;
         right: 0;
+        background-color: #ffffff;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         clip-path: circle(0px at 90% -10%);
         transition: all 0.5s ease-out;
